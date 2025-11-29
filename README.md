@@ -27,7 +27,7 @@ Un Makefile moderne et optimisé pour tous vos projets à l'École 42, avec barr
 
 ```bash
 # Téléchargez le Makefile
-curl -O https://raw.githubusercontent.com/bhyant/makefile-42/main/Makefile
+curl -O https://raw.githubusercontent.com/bhyant/42-Makefile/main/Makefile
 
 # Adaptez les variables à votre projet
 ```
@@ -35,7 +35,7 @@ curl -O https://raw.githubusercontent.com/bhyant/makefile-42/main/Makefile
 ### Méthode 2 : Clone du repo
 
 ```bash
-git clone https://github.com/VOTRE_USERNAME/makefile-42.git
+git clone https://github.com/VOTRE_USERNAME/42-Makefile.git
 cd makefile-42
 cp Makefile /path/to/your/project/
 ```
@@ -284,4 +284,4 @@ Créé pour la communauté de l'École 42
 
 ⭐ Si ce Makefile vous a été utile, n'hésitez pas à lui donner une étoile !
 
-🐛 Vous avez trouvé un bug ? Ouvrez une [issue](https://github.com/bhyant/makefile-42/issues) !
+🐛 Vous avez trouvé un bug ? Ouvrez une [issue](https://github.com/bhyant/42-Makefile/issues) !
