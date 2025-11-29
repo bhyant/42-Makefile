@@ -17,14 +17,14 @@ CC          = cc
 CFLAGS      = -Wall -Wextra -Werror
 DEPFLAGS    = -MMD -MP
 
-SRC_DIR     = src
+SRC_DIR     = srcs
 OBJ_DIR     = .objs
 INC_DIR     = includes
 
 INCLUDES    = -I$(INC_DIR)
 
 #Wildcard Interdit a la norme mettre les sources manuellement
-SRCS        = $(wildcard $(SRC_DIR)/*.c)
+SRCS        = $(shell find $(SRC_DIR) -name '*.c')
 OBJS        = $(SRCS:$(SRC_DIR)/%.c=$(OBJ_DIR)/%.o)
 DEPS        = $(OBJS:.o=.d)
 
